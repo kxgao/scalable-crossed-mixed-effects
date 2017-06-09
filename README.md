@@ -10,6 +10,7 @@ The data are assumed to reside on one machine.
 
 # Usage
 
+Requires numpy.
 For the crossed random effects model, download cre.py. For the linear mixed model, download mixed.py.
 
 ## cre.py
