@@ -16,11 +16,11 @@ For the crossed random effects model, download cre.py. For the linear mixed mode
 ## cre.py
 
 From the command line, run python cre.py fileName.txt.
-1. fileName.txt contains the data in log-file format: (i,j,Yij), where i is the level of the first factor, j is the level of the second factor, and Yij is the response of interest.
+1. fileName.txt contains the data in log-file format: (i,j,Yij), where i is the level of the first factor, j is the level of the second factor, and Yij is the response of interest. Each line is an observation and the quantities are separated by spaces. 
 2. Prints out estimated variance components and their conservative variances.
 
 ## mixed.py
 
 From the command line, run python mixed.py fileName.txt
-1. fileName.txt contains the data in log-file format: (i,j,Yij,xij), where i is the level of the first factor, j is the level of the second factor, Yij is the response of interest, and xij are the predictors. 
+1. fileName.txt contains the data in log-file format: (i,j,Yij,xij), where i is the level of the first factor, j is the level of the second factor, Yij is the response of interest, and xij are the predictors. Each line is an observation and the quantities are separated by spaces.
 2. Prints out estimated regression coefficients and variance components and their asymptotic variances. 
