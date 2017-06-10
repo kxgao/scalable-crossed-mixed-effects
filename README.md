@@ -22,5 +22,5 @@ From the command line, run python cre.py fileName.txt.
 ## mixed.py
 
 From the command line, run python mixed.py fileName.txt
-1. fileName.txt contains the data in log-file format: (i,j,Yij,xij), where i is the level of the first factor, j is the level of the second factor, Yij is the response of interest, and xij are the predictors. Each line is an observation and the quantities are separated by spaces.
+1. fileName.txt contains the data in log-file format: (i,j,Yij,xij), where i is the level of the first factor, j is the level of the second factor, Yij is the response of interest, and xij are the predictors (be sure to include a '1' if an intercept is desired). Each line is an observation and the quantities are separated by spaces.
 2. Prints out estimated regression coefficients and variance components and their asymptotic variances. 
